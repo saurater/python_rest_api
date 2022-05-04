@@ -1,7 +1,7 @@
 # Python Rest API
 Python Rest API
 
-## 1Environment Settings
+## 1. Environment Settings
 
 ## 1.1 Python 
 ### 1. Python Download
