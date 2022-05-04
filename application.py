@@ -5,24 +5,8 @@ Python Rest API
 Created on Tue May  3 08:46:40 2022
 @author: Sam Faraday
 """
-
-"""Help
-
-Before ypu run it, in the command line do:
-    1. Go to your VENV path, im my case cd E:\python_dev\api\helloworld_api\venv_api\Scripts
-    2. activate
-    3. set FLASK_APP=application.py
-    4. set FLASK_ENV=environment
-    5. Go to the path of your application, in may case cd E:\python_dev\api\helloworld_api
-    5. Flask run
-    6. python 
-    7. from application import db
-    8. from application import app
-    9. from application import add_book
-    
-"""
 #Flask - a Microframework for web development
-#request - to check the type of url request (get, post, update, put delete)
+#request - to send requeststo a browser / app (get, post, update, put delete)
 from flask import Flask, request
 #creating an app by instatiating Flask
 app = Flask(__name__)
@@ -67,7 +51,7 @@ def add_books(book_name, book_author):
 
 @app.route('/')
 def index():
-    return "Hello, Flask API"
+    return "Hello, Welcome to Flask API by Sam Faraday"
 @app.route("/books")
 def get_books():
     books = Books.query.all()
