@@ -11,7 +11,14 @@ https://www.python.org/downloads/
 1. Please make sure to avoid blank spaces in the folder path
 2. Select Addt to Python to Environment Variables
 
-## 3. Python Virtual Vnvironment
+## Folders Structure
+1. python_dev (root folder)
+2.   api
+3.     helloworld_api
+4.       venv_api
+5.  
+
+## 3. Python Virtual Environment
 A cooperatively isolated runtime environment that allows Python users and applications to install and upgrade Python distribution packages without interfering with the behaviour of other Python applications running on the same system.
 ### 3.1 Creating env_api
 To isolate our REST API Devolpmmente Environment, let us create a venv. Please follow the instrcutions below
