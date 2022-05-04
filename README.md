@@ -14,7 +14,7 @@ https://www.python.org/downloads/
 ## 1.2 Spyder - IDE
 Spyder is a free and open source scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts
 
-## 1.3 Spyder Download
+### 1.3 Spyder Download
 go do https://github.com/spyder-ide/spyder/releases/latest/download/Spyder_64bit_full.exe
 
 ## 3. Python ENV
