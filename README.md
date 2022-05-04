@@ -13,7 +13,7 @@ https://www.python.org/downloads/
 
 ## Folders Structure
 1. python_dev (root folder)
-2.    api
+2.  api
 3.     helloworld_api
 4.       venv_api
 5.  
